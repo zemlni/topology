@@ -1,0 +1,109 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{baltsavias1999}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baltsavias}{B.}%
+     {Emmanuel~P}{E.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BEP1}
+  \strng{fullhash}{BEP1}
+  \field{sortinit}{B}
+  \field{number}{2}
+  \field{pages}{199\bibrangedash 214}
+  \field{title}{Airborne laser scanning: basic relations and formulas}
+  \field{volume}{54}
+  \field{journaltitle}{ISPRS Journal of photogrammetry and remote sensing}
+  \field{annotation}{%
+  @article{baltsavias1999airborne, title={Airborne laser scanning: basic
+  relations and formulas}, author={Baltsavias, Emmanuel P}, journal={ISPRS
+  Journal of photogrammetry and remote sensing}, volume={54}, number={2},
+  pages={199--214}, year={1999}, publisher={Elsevier} }%
+  }
+  \field{year}{1999}
+\endentry
+
+\entry{gibbs2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gibbs}{G.}%
+     {Holly~K}{H.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Sandra}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Niles}{N.}%
+     {John~O}{J.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Foley}{F.}%
+     {Jonathan~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GHK+1}
+  \strng{fullhash}{GHKBSNJOFJA1}
+  \field{sortinit}{G}
+  \field{number}{4}
+  \field{title}{Monitoring and estimating tropical forest carbon stocks: making
+  REDD a reality}
+  \field{volume}{2}
+  \field{journaltitle}{Environmental Research Letters}
+  \field{year}{2007}
+\endentry
+
+\entry{mosseler2003}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Mosseler}{M.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lynds}{L.}%
+     {JA}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Major}{M.}%
+     {JE}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MALJMJ1}
+  \strng{fullhash}{MALJMJ1}
+  \field{sortinit}{M}
+  \field{pages}{S47\bibrangedash S77}
+  \field{title}{Old-growth forests of the Acadian Forest Region}
+  \field{volume}{11}
+  \field{journaltitle}{Environmental Reviews}
+  \field{year}{2003}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
