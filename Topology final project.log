@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.1)  4 MAY 2017 02:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.1)  4 MAY 2017 16:09
 entering extended mode
 **"./Topology final project.tex"
 ("Topology final project.tex"
@@ -111,12 +111,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 28.
 
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 39.
+               Default added (so using `tbp') on input line 38.
 
 
-Overfull \hbox (65.00092pt too wide) in paragraph at lines 43--50
+Overfull \hbox (65.00092pt too wide) in paragraph at lines 41--48
  [][] 
  []
 
@@ -125,72 +129,183 @@ File: bartlett_transects_0d_persistence.png Graphic file (type png)
 
 <use bartlett_transects_0d_persistence.png>
 Package pdftex.def Info: bartlett_transects_0d_persistence.png used on input li
-ne 53.
-(pdftex.def)             Requested size: 18.06856pt x 10.87877pt.
+ne 51.
+(pdftex.def)             Requested size: 180.67456pt x 108.78113pt.
 
 <harvard_transects_0d_persistence.png, id=17, 362.10281pt x 217.5628pt>
 File: harvard_transects_0d_persistence.png Graphic file (type png)
 
 <use harvard_transects_0d_persistence.png>
 Package pdftex.def Info: harvard_transects_0d_persistence.png used on input lin
-e 54.
-(pdftex.def)             Requested size: 18.10619pt x 10.87877pt.
+e 52.
+(pdftex.def)             Requested size: 181.05095pt x 108.78113pt.
 
 <grsm_transects_0d_persistence.png, id=18, 362.10281pt x 217.5628pt>
 File: grsm_transects_0d_persistence.png Graphic file (type png)
 
 <use grsm_transects_0d_persistence.png>
 Package pdftex.def Info: grsm_transects_0d_persistence.png used on input line 5
-5.
-(pdftex.def)             Requested size: 18.10619pt x 10.87877pt.
+3.
+(pdftex.def)             Requested size: 181.05095pt x 108.78113pt.
 
 <mlbs_transects_0d_persistence.png, id=19, 361.35pt x 217.5628pt>
 File: mlbs_transects_0d_persistence.png Graphic file (type png)
 
 <use mlbs_transects_0d_persistence.png>
 Package pdftex.def Info: mlbs_transects_0d_persistence.png used on input line 5
-6.
-(pdftex.def)             Requested size: 18.06856pt x 10.87877pt.
+4.
+(pdftex.def)             Requested size: 180.67456pt x 108.78113pt.
 
 <transect_roc.png, id=20, 486.31688pt x 376.40625pt>
 File: transect_roc.png Graphic file (type png)
  <use transect_roc.png>
-Package pdftex.def Info: transect_roc.png used on input line 57.
-(pdftex.def)             Requested size: 24.31726pt x 18.82141pt.
+Package pdftex.def Info: transect_roc.png used on input line 55.
+(pdftex.def)             Requested size: 243.15784pt x 188.20265pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--58
+Overfull \hbox (18.94772pt too wide) in paragraph at lines 51--57
+[] []
+ []
+
+
+Overfull \hbox (18.94772pt too wide) in paragraph at lines 51--57
+[] [] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[4 <./bartlett_transects_0d_persistence.png> <./harvard_transects_0d_persistenc
-e.png>] [5 <./grsm_transects_0d_persistence.png> <./mlbs_transects_0d_persisten
-ce.png> <./transect_roc.png>]
-Overfull \hbox (172.30693pt too wide) in paragraph at lines 117--119
+[5 <./bartlett_transects_0d_persistence.png> <./harvard_transects_0d_persistenc
+e.png> <./grsm_transects_0d_persistence.png> <./mlbs_transects_0d_persistence.p
+ng> <./transect_roc.png>]
+<bartlett_0d_persistence.png, id=32, 362.10281pt x 216.81pt>
+File: bartlett_0d_persistence.png Graphic file (type png)
+
+<use bartlett_0d_persistence.png>
+Package pdftex.def Info: bartlett_0d_persistence.png used on input line 63.
+(pdftex.def)             Requested size: 181.05095pt x 108.40472pt.
+
+<harvard_0d_persistence.png, id=33, 362.10281pt x 217.5628pt>
+File: harvard_0d_persistence.png Graphic file (type png)
+
+<use harvard_0d_persistence.png>
+Package pdftex.def Info: harvard_0d_persistence.png used on input line 64.
+(pdftex.def)             Requested size: 181.05095pt x 108.78113pt.
+
+<grsm_0d_persistence.png, id=34, 362.10281pt x 217.5628pt>
+File: grsm_0d_persistence.png Graphic file (type png)
+
+<use grsm_0d_persistence.png>
+Package pdftex.def Info: grsm_0d_persistence.png used on input line 65.
+(pdftex.def)             Requested size: 181.05095pt x 108.78113pt.
+
+<mlbs_0d_persistence.png, id=35, 362.10281pt x 217.5628pt>
+File: mlbs_0d_persistence.png Graphic file (type png)
+
+<use mlbs_0d_persistence.png>
+Package pdftex.def Info: mlbs_0d_persistence.png used on input line 66.
+(pdftex.def)             Requested size: 181.05095pt x 108.78113pt.
+ <0d_roc.png, id=36, 433.62pt x 289.08pt>
+File: 0d_roc.png Graphic file (type png)
+
+<use 0d_roc.png>
+Package pdftex.def Info: 0d_roc.png used on input line 67.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (19.32411pt too wide) in paragraph at lines 63--69
+[] []
+ []
+
+
+Overfull \hbox (19.32411pt too wide) in paragraph at lines 63--69
+[] [] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 70.
+
+
+Overfull \hbox (62.77875pt too wide) in paragraph at lines 73--80
+ [][] 
+ []
+
+<bartlett_1d.png, id=37, 362.10281pt x 216.81pt>
+File: bartlett_1d.png Graphic file (type png)
+ <use bartlett_1d.png>
+Package pdftex.def Info: bartlett_1d.png used on input line 84.
+(pdftex.def)             Requested size: 181.05095pt x 108.40472pt.
+
+<harvard_1d.png, id=38, 362.10281pt x 217.5628pt>
+File: harvard_1d.png Graphic file (type png)
+ <use harvard_1d.png>
+Package pdftex.def Info: harvard_1d.png used on input line 85.
+(pdftex.def)             Requested size: 181.05095pt x 108.78113pt.
+
+<grsm_1d.png, id=39, 362.10281pt x 216.81pt>
+File: grsm_1d.png Graphic file (type png)
+ <use grsm_1d.png>
+Package pdftex.def Info: grsm_1d.png used on input line 86.
+(pdftex.def)             Requested size: 181.05095pt x 108.40472pt.
+
+<mlbs_1d.png, id=40, 361.35pt x 217.5628pt>
+File: mlbs_1d.png Graphic file (type png)
+ <use mlbs_1d.png>
+Package pdftex.def Info: mlbs_1d.png used on input line 87.
+(pdftex.def)             Requested size: 180.67456pt x 108.78113pt.
+
+<1d_roc.png, id=41, 361.35pt x 376.40625pt>
+File: 1d_roc.png Graphic file (type png)
+ <use 1d_roc.png>
+Package pdftex.def Info: 1d_roc.png used on input line 88.
+(pdftex.def)             Requested size: 180.67456pt x 188.20265pt.
+
+Overfull \hbox (19.32411pt too wide) in paragraph at lines 83--90
+[] []
+ []
+
+
+Overfull \hbox (18.94772pt too wide) in paragraph at lines 83--90
+[] [] 
+ []
+
+[6 <./bartlett_0d_persistence.png> <./harvard_0d_persistence.png> <./grsm_0d_pe
+rsistence.png> <./mlbs_0d_persistence.png> <./0d_roc.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 91.
+
+
+Overfull \hbox (67.77876pt too wide) in paragraph at lines 94--101
+ [][] 
+ []
+
+[7 <./bartlett_1d.png> <./harvard_1d.png> <./grsm_1d.png> <./mlbs_1d.png> <./1d
+_roc.png>] [8]
+Overfull \hbox (172.30693pt too wide) in paragraph at lines 116--118
 \OT1/cmr/m/n/10 https://d1b10bmlvqabco.cloudfront.net/attach/j1m8suensxh6ez/ho3
 2xurye2y7nv/j1o35t5rkuhu/morseFiltration2D.m. 
  []
 
-[6] ("Topology final project.aux")
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[9] ("Topology final project.aux") ) 
 Here is how much of TeX's memory you used:
- 1151 strings out of 493634
- 16217 string characters out of 3134832
+ 1201 strings out of 493634
+ 17154 string characters out of 3134832
  73432 words of memory out of 3000000
- 4574 multiletter control sequences out of 15000+200000
- 7280 words of font info for 26 fonts, out of 3000000 for 9000
+ 4614 multiletter control sequences out of 15000+200000
+ 7587 words of font info for 27 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,7n,19p,1893b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Nikita/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/Nikita/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/Nikita/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nikita/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Topology final project.pdf" (6 pages, 117504 bytes).
+ 27i,7n,19p,1901b,196s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Nikita/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nikita/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Nikita
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Nikita/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr17.pfb>
+Output written on "Topology final project.pdf" (9 pages, 244058 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
