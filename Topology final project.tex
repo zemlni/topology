@@ -1,6 +1,6 @@
 \documentclass[10pt]{article}
-\title{Tree Project}
-\author{Samuel Pease, Eva Arroyo, Nikita Zemlevskiy}
+\title{ Topology as a Tool to Differentiate Canopy Architecture in North American Forests }
+\author{ Eva Arroyo, Samuel Pease, Nikita Zemlevskiy}
 \date{5/4/2017}
 \usepackage{graphicx}
 \begin{document}
@@ -53,12 +53,12 @@ Mean Mean Persistence    & 7.610 (1.799) & 8.453 (2.005) & 5.869 (3.090) & 7.156
 \includegraphics[scale = 0.5]{grsm_transects_0d_persistence}
 \includegraphics[scale = 0.5]{mlbs_transects_0d_persistence}\\
 \includegraphics[scale = 0.5]{transect_roc}\\
-Figure 1: False positives versus true positives for prediction of site 1
+Figure 1: False positives versus true positives for prediction of site 1 using the transect method
 
 
 \subsection*{0 Dimensional Persistence}
 
-We analyzed a total of 400 canopy height models over the four sites to examine the zero dimensional persistence. This resulted in an AUC of .677 and a KS of .312 (Figure 2).\\
+We analysed a total of 400 canopy height models over the four sites to examine the zero dimensional persistence. The highest average maximum persistence was at the Great Smoky Mountains Part, though the highest single value was at Bartlett forest (Table 2). This resulted in an AUC of .544 and a KS of .088 (Figure 2).\\
 
 \noindent \includegraphics[scale= 0.5]{bartlett_0d_persistence}
 \includegraphics[scale= 0.5]{harvard_0d_persistence}
@@ -73,14 +73,14 @@ Figure 2: True positive by false positives for the 0D persistence of the Canopy 
 \begin{tabular}{|l|l|l|l|l|}
 \hline
                          & BART          & GRSM          & HARV          & MLBS          \\ \hline
-Mean Maximum Persistence & 16.47,(1.267) & 29.96,(2.810) & 20.37,(1.936) & 21.9,(1.367)  \\ \hline
-Maximum Persistence      & 18            & 33            & 22            & 24            \\ \hline
-Mean Mean Persistence    & 3.356,(1.068) & 8.495,(1.590) & 5.852,(1.778) & 3.356,(1.068) \\ \hline
+Mean Maximum Persistence & 16.19,(1.375) & 24.991,(2.844) & 21.725,(3.361) & 22.693,(2.703)  \\ \hline
+Maximum Persistence      &50            & 27            & 31            & 31            \\ \hline
+Mean Mean Persistence    & 3.604,(.906) & 4.473,(1.571) & 5.133,(1.926) & 5.314,(1.784) \\ \hline
 \end{tabular}
 \end{table}
 
 \subsection*{1 Dimensional Persistance}
-We used the same set of 400 canopy height models for the one dimensional persistence. This resulted in a AUC of .815 and a KS of .5 (Figure 3). The highest average maximum persistence across sites was at GRSM, which also had the highest maximum persistence (Table 3).\\
+We used the same set of 400 canopy height models for the one dimensional persistencehis resulted in a AUC of .709 and a KS of .37 (Figure 3). The highest average maximum persistence across sites was at GRSM, MLBS had the highest mean mean persistence, and BART had the highest overall persistence (Table 3).\\
 \noindent \includegraphics[scale= 0.5]{bartlett_1d}
 \includegraphics[scale= 0.5]{harvard_1d}
 \includegraphics[scale= 0.5]{grsm_1d}
@@ -94,15 +94,15 @@ Figure 3: True positive by false positives for the 1-D persistence of the Canopy
 \begin{tabular}{|l|l|l|l|l|}
 \hline
                          & BART          & GRSM           & HARV          & MLBS          \\ \hline
-Mean Maximum Persistence & 23.84,(1.134) & 40.91,(3.528)  & 28.61,(2.112) & 28.71,(1.701) \\ \hline
-Maximum Persistence      & 27            & 52             & 37            & 36            \\ \hline
-Mean Mean Persistence    & 9.0177,(.572) & 15.068,(1.323) & 12.445,(.669) & 11.444,(.492) \\ \hline
+Mean Maximum Persistence & 16.19,(1.375) & 24.991,(3.528)  & 21.725,(3.361) & 22,693,(2.703) \\ \hline
+Maximum Persistence      & 50            & 27             & 31            & 31            \\ \hline
+Mean Mean Persistence    & 3.604,(.906) & 4.473,(1.571) & 5.133,(1.926) & 5.314,(1.784) \\ \hline
 \end{tabular}
 \end{table}
 
 
 \section*{Discussion}
-\indent As can be seen in the data presented in the Result section above, the SVMs were considerably more effective at classifying feature vectors constructed from 1d persistence diagrams than the other two methods, the transect 0d method and the non-transect 0d method. Running the classification on 1d persistence diagrams, an AUC value of 0.815 was obtained, compared to 0.61 and 0.67 for the transect and non transect 0d methods respectfully. Since a higher AUC corresponds to a higher correct classification rate, our results indicate that the 1d methodology is better for classifying persistence diagrams of canopy height models. 
+\indent The SVMs were considerably more effective at classifying feature vectors constructed from 1d persistence diagrams than the other two methods, the transect 0d method and the non-transect 0d method. Running the classification on 1d persistence diagrams, an AUC value of 0.815 was obtained, compared to 0.61 and 0.67 for the transect and non transect 0d methods respectfully. Since a higher AUC corresponds to a higher correct classification rate, our results indicate that the 1d methodology is better for classifying persistence diagrams of canopy height models. 
 
 \indent We interpret 0d persistence (for both the transect and the non-transect cases) as the heights of individual trees relative to those around it. This is analogous to sampling a function where each point is a tree, and persistence comes from comparing heights of points to heights of their neighbors. In contrast, 1d persistence is a measure of more general trend-like increases. Such an increase could be caused by a mountain or hill, since the elevations would be getting higher and higher and would reach a maximum at the middle. Although ground level elevation is accounted for in the model and only height from the ground is provided in the data, the analogy is still useful. One could imagine a group of trees that get gradually taller and taller closer to the middle of the group. 1d persistence measures the size and importance of such groups. As such, these are two fundamentally different but related quantities, and it is acceptable that results from using them could vary.
 
